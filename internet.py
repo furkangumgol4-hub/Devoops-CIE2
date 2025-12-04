@@ -1,8 +1,8 @@
 import sys
-default_plan = "Basic Plan"
-default_speed = "10Mbps"
-default_validity = "30Days"
-default_price = "500"
+default_plan = "6month"
+default_speed = "150Mbps"
+default_validity = "12/2/26"
+default_price = "1600"
 
 if len(sys.argv) > 1:
     plan_name = sys.argv[1]
